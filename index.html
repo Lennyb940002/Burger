@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="fullpage">
+        <div class="grid-container">
+            <div class="grid-item1">
+                <img class="logo" src="image/logo.png" alt="">
+            </div>
+            <div class="grid-item2">
+                <div class="text-background">BIGBURGER</div>
+                <img class="tripleburger" src="image/burger.webp" alt="">
+            </div>
+        </div>
+        <div class="grid-item3">
+            <div class="burger-image">
+                <img class="pain_burger_h" src="image/burger - Copie.png" alt="">
+            </div>
+            <div class="checkbox-grid">
+                <form class="ingredients-form">
+                    <div class="row">
+                        <label>
+                            <img src="image/ketchup.png" alt="Ingrédient" class="icon"> 
+                            <input type="checkbox" name="ingredients" value="ketchup" class="check-icon">
+                        </label>
+                        <label>
+                            <img src="image/mayonaisse.png" alt="Ingrédient" class="icon"> 
+                            <input type="checkbox" name="ingredients" value="mayonnaise" class="check-icon">
+                        </label>
+                        <label>
+                            <img src="image/bouteille.png" alt="Ingrédient" class="icon"> 
+                            <input type="checkbox" name="ingredients" value="mustard" class="check-icon">
+                        </label>
+                    </div>
+                    <div class="row">
+                        <label>
+                            <img src="image/fromage.png" alt="Ingrédient" class="icon"> 
+                            <input type="checkbox" name="ingredients" value="cheddar" class="check-icon">
+                        </label>
+                        <label>
+                            <img src="image/tomate.png" alt="Ingrédient" class="icon"> 
+                            <input type="checkbox" name="ingredients" value="tomato" class="check-icon">
+                        </label>
+                        <label>
+                            <img src="image/salade.png" alt="Ingrédient" class="icon"> 
+                            <input type="checkbox" name="ingredients" value="salad" class="check-icon">
+                        </label>
+                    </div>
+                    <div class="row">
+                        <label>
+                            <img src="image/steak.png" alt="Ingrédient" class="icon"> 
+                            <input type="checkbox" name="ingredients" value="beef patty" class="check-icon">
+                        </label>
+                        <label>
+                            <img src="image/poulet-frit.png" alt="Ingrédient" class="icon"> 
+                            <input type="checkbox" name="ingredients" value="chicken" class="check-icon">
+                        </label>
+                    </div>
+                    <div class="row">
+                        <label>
+                            <img src="image/cornichon.png" alt="Ingrédient" class="icon"> 
+                            <input type="checkbox" name="ingredients" value="pickles" class="check-icon">
+                        </label>
+                        <label>
+                            <img src="image/couper.png" alt="Ingrédient" class="icon"> 
+                            <input type="checkbox" name="ingredients" value="onion" class="check-icon">
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="other-image">
+                <img src="image/burgerbottom.png" alt="Autre Image" class="other-icon">
+            </div>
+            <button id="searchButton">Rechercher des recettes</button>
+        </div>
+        <img class="menu" src="image/menu.png" alt="">
+        <div class="result-menu"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
